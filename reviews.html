@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews | Pixel Forge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Pixel Forge</a></h1>
+        <nav aria-label="Main navigation">
+            <a href="reviews.html" aria-current="page">Reviews</a>
+            <a href="#">Sign up / Log in</a>
+        </nav>
+    </header>
+    <main class="reviews-main">
+        <section class="reviews-intro" aria-labelledby="reviews-title">
+            <p class="reviews-eyebrow">PLAYER PICKS & EDITOR NOTES</p>
+            <h2 id="reviews-title">Game reviews</h2>
+            <p>Thoughts from the Pixel Forge community on games worth your time. Browse a few recent favorites or leave a review of your own.</p>
+        </section>
+
+        <section class="review-list" aria-label="Recent game reviews">
+            <article class="review-card">
+                <h3>Neon Drift</h3>
+                <p class="review-byline">Reviewed by PixelPilot</p>
+                <p class="review-score">Score: 9.2 / 10</p>
+                <p>Every track feels like a midnight joyride through a synthwave postcard. The controls are responsive, the soundtrack is excellent, and the short races make it easy to jump back in for one more run.</p>
+            </article>
+            <article class="review-card">
+                <h3>Dungeon Circuit</h3>
+                <p class="review-byline">Reviewed by MossyByte</p>
+                <p class="review-score">Score: 8.8 / 10</p>
+                <p>A smart little dungeon crawler that keeps its rooms surprising. Experimenting with different upgrades is a highlight, though a few later challenges could use clearer instructions.</p>
+            </article>
+            <article class="review-card">
+                <h3>Starfall '89</h3>
+                <p class="review-byline">Reviewed by OrbitArcade</p>
+                <p class="review-score">Score: 9.5 / 10</p>
+                <p>This colorful space shooter is delightfully chaotic. The bright visuals make every level memorable, and its co-op mode turns a quick session into a great time with friends.</p>
+            </article>
+        </section>
+
+        <section class="add-review" aria-labelledby="add-review-title">
+            <h2 id="add-review-title">Add a review</h2>
+            <p>This sample form is for display only. Reviews are not submitted or saved.</p>
+            <form class="review-form">
+                <label for="reviewer-name">Your name</label>
+                <input id="reviewer-name" name="reviewer-name" type="text" placeholder="Player name">
+
+                <label for="game-title">Game title</label>
+                <input id="game-title" name="game-title" type="text" placeholder="What did you play?">
+
+                <label for="game-score">Your score</label>
+                <select id="game-score" name="game-score">
+                    <option value="">Choose a score</option>
+                    <option value="10">10 / 10</option>
+                    <option value="9">9 / 10</option>
+                    <option value="8">8 / 10</option>
+                    <option value="7">7 / 10</option>
+                    <option value="6">6 / 10</option>
+                    <option value="5">5 / 10</option>
+                </select>
+
+                <label for="review-text">Your review</label>
+                <textarea id="review-text" name="review-text" placeholder="What did you think?"></textarea>
+
+                <button type="button">Preview review (demo)</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h2><a href="index.html">Pixel Forge</a></h2>
+        <p>&copy; 2026 Pixel Forge. All rights reserved.</p>
+        <nav aria-label="Footer navigation">
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+    </footer>
+</body>
+</html>
