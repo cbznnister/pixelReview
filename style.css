@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-    --color-bg: #17131f;
-    --color-surface: #211a2b;
-    --color-surface-raised: #2c2238;
-    --color-primary: #e84a5f;
-    --color-secondary: #f28c45;
-    --color-accent: #a879f9;
-    --color-success: #63c7a5;
-    --color-warning: #f4b942;
-    --color-danger: #f25f5c;
-    --color-text: #f2edf7;
-    --color-text-muted: #aaa0b5;
-    --color-border: #493b55;
+    --color-bg: #f8f5f0;
+    --color-surface: #ffffff;
+    --color-surface-raised: #f0e9df;
+    --color-primary: #b8324b;
+    --color-secondary: #9a4b16;
+    --color-accent: #6941a5;
+    --color-success: #237451;
+    --color-warning: #8a5a00;
+    --color-danger: #b4232f;
+    --color-text: #282332;
+    --color-text-muted: #625c6b;
+    --color-border: #d8cfc3;
 }
 
 * {
@@ -76,7 +76,7 @@ header nav a:last-child {
 
 header nav a:last-child:hover {
     background-color: var(--color-primary);
-    color: var(--color-text);
+    color: var(--color-surface);
 }
 
 header nav a:focus-visible {
@@ -159,7 +159,7 @@ main > section:first-of-type a {
     padding: 0.8rem 1.1rem;
     border-radius: 0.4rem;
     background-color: var(--color-primary);
-    color: var(--color-text);
+    color: var(--color-surface);
     font-weight: 700;
     text-decoration: none;
 }
